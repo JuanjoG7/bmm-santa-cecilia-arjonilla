@@ -1,0 +1,57 @@
+/* BMM Santa Cecilia · Phase 3 responsive and accessibility layer */
+:root {
+  --bmm-focus-ring: #e2c66c;
+  --bmm-control-radius: 11px;
+}
+
+html { scroll-padding-top: 5rem; }
+body { -webkit-tap-highlight-color: transparent; }
+
+/* A single, high-contrast focus treatment for keyboard and switch users. */
+html body :is(button, a, input, select, textarea, [tabindex]):focus-visible {
+  outline: 3px solid var(--bmm-focus-ring, #e2c66c) !important;
+  outline-offset: 3px !important;
+}
+
+/* Consistent control edges without replacing the app's theme palette. */
+html body :is(input, select, textarea) {
+  border-radius: var(--bmm-control-radius, 11px);
+}
+
+/* Keep intermediate-width tablets comfortable instead of squeezing cards. */
+@media (min-width: 761px) and (max-width: 1080px) {
+  html body .app { grid-template-columns: 220px minmax(0, 1fr) !important; }
+  html body .sidebar { padding-inline: 12px !important; }
+  html body .content { padding-inline: 22px !important; }
+  html body .topbar { padding-inline: 22px !important; }
+  html body .stats { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  html body .dashboard-grid { grid-template-columns: minmax(0, 1fr) !important; }
+}
+
+/* Touch-first controls, while leaving wide tables horizontally scrollable. */
+@media (max-width: 760px) {
+  html body .app :is(button, a, [role="button"]) { touch-action: manipulation; }
+  html body .app .btn { min-height: 44px !important; }
+  html body .app .icon-btn,
+  html body .app .march-row-control { min-width: 40px !important; min-height: 40px !important; }
+  html body .app :is(input:not([type="checkbox"]):not([type="radio"]), select) { min-height: 42px !important; }
+  html body .app .bmm-bulk-option { min-height: 44px !important; }
+  html body .app .modal .btn { white-space: normal; }
+  html body .app .data-table th,
+  html body .app .data-table td { overflow-wrap: anywhere; }
+  html body .app .event-card-actions { flex-wrap: wrap; }
+}
+
+/* The selected palette continues to control surfaces and text; make native
+   browser controls follow that resolved palette as well. */
+html[data-bmm-resolved-theme="dark"] { color-scheme: dark; }
+html[data-bmm-resolved-theme="light"] { color-scheme: light; }
+
+@media (prefers-reduced-motion: reduce) {
+  html body *, html body *::before, html body *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

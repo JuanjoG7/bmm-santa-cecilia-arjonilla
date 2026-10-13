@@ -1,0 +1,425 @@
+/* BMM Santa Cecilia v1.9.0 — Phase 1: pulido visual común.
+   Reglas transversales para jerarquía, controles, formularios, paneles y modales.
+   No modifica datos, eventos, autenticación ni sincronización con Netlify. */
+:root {
+  --bmm-radius-sm: 10px;
+  --bmm-radius-md: 14px;
+  --bmm-radius-lg: 18px;
+  --bmm-gap-card: 14px;
+  --bmm-control-height: 42px;
+  --bmm-focus-ring: var(--gold, #cfb25f);
+  --bmm-elevation-soft: 0 5px 18px rgba(12, 49, 32, .045);
+}
+
+html { scroll-padding-top: 6rem; }
+body { line-height: 1.48; text-rendering: optimizeLegibility; }
+
+/* Consistencia de las superficies: menos bordes dobles, radios previsibles y ancho flexible. */
+html[data-bmm-resolved-theme] body .content :is(
+  .card, .pro-card, .stat-card, .event-card, .event-preview, .setting-card,
+  .setting-panel, .settings-card, .settings-panel, .member-card, .group-card,
+  .group-tile, .chart-card, .chart-wrap, .timeline-card, .timeline-item,
+  .filter-panel, .global-filterbar, .filterbar, .report-builder,
+  .report-options, .report-preview-shell, .audit-panel, .empty-state-card,
+  .empty-state, .chart-empty, .bmm-theme-settings, .bmm-cloud-data-panel,
+  .bmm-data-workbench
+) {
+  border-radius: var(--bmm-radius-lg);
+  min-width: 0;
+}
+html[data-bmm-resolved-theme] body .content :is(.card,.pro-card,.setting-card,.settings-card,.member-card,.group-card,.chart-card,.timeline-card,.filter-panel,.global-filterbar,.filterbar) {
+  box-shadow: var(--bmm-elevation-soft);
+}
+html[data-bmm-resolved-theme] body .content :is(.card-head,.pro-card-head,.panel-head,.setting-card>header) {
+  gap: 12px;
+}
+html[data-bmm-resolved-theme] body .content :is(.card-head h2,.pro-card-head h2,.setting-card h2,.section-title) {
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+html[data-bmm-resolved-theme] body .content :is(p,.card-sub,.pro-card-head p,.footnote,.help-text,.field-hint,.event-meta,.event-notes) {
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+/* Botones: objetivo táctil, estados coherentes y textos largos que nunca se pisan. */
+html[data-bmm-resolved-theme] body .app :is(button,.btn,[role="button"]) {
+  -webkit-tap-highlight-color: transparent;
+}
+html[data-bmm-resolved-theme] body .app .btn {
+  min-height: 40px;
+  line-height: 1.25;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  transition: background-color .16s ease, border-color .16s ease, box-shadow .16s ease, transform .16s ease;
+}
+html[data-bmm-resolved-theme] body .app .btn:active:not(:disabled) { transform: translateY(1px); }
+html[data-bmm-resolved-theme] body .app :is(button,.btn,[role="button"]):disabled,
+html[data-bmm-resolved-theme] body .app [aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: .58;
+  filter: saturate(.7);
+}
+html[data-bmm-resolved-theme] body .app .icon-btn {
+  display: inline-grid;
+  place-items: center;
+  line-height: 1;
+  flex: 0 0 auto;
+}
+html[data-bmm-resolved-theme] body .app .btn-danger:focus-visible,
+html[data-bmm-resolved-theme] body .app [data-action*="delete"]:focus-visible,
+html[data-bmm-resolved-theme] body .app [data-action*="remove"]:focus-visible {
+  outline-color: #d95d6d !important;
+}
+
+/* Formularios: etiquetas legibles, campos con foco visible y controles con altura uniforme. */
+html[data-bmm-resolved-theme] body .app .content :is(
+  .field input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
+  .field select, .field textarea, .filter-select, .searchbox input,
+  .search-box input, .add-category-row input, .global-filterbar input,
+  .global-filterbar select, .report-tools input, .report-tools select,
+  .report-tools textarea
+) {
+  min-width: 0;
+  min-height: var(--bmm-control-height);
+  max-width: 100%;
+  border-radius: 11px;
+  line-height: 1.35;
+  transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
+}
+html[data-bmm-resolved-theme] body .app .content :is(.field textarea) {
+  min-height: 96px;
+  line-height: 1.5;
+  resize: vertical;
+}
+html[data-bmm-resolved-theme] body .app .content :is(.field label,.filter-panel label,.global-filterbar label,.report-tools label) {
+  display: block;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+html[data-bmm-resolved-theme="light"] body .app .content :is(input,select,textarea)::placeholder { color: #718579; opacity: 1; }
+html[data-bmm-resolved-theme="dark"] body .app .content :is(input,select,textarea)::placeholder { color: #a9c0b0; opacity: 1; }
+html[data-bmm-resolved-theme] body .app .content :is(input,select,textarea):focus-visible {
+  border-color: var(--bmm-ui-link, var(--green)) !important;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--bmm-ui-link, var(--green)) 17%, transparent) !important;
+}
+
+/* Tarjetas y listados: evitar que nombres largos rompan la cuadrícula. */
+html[data-bmm-resolved-theme] body .content :is(
+  .event-card-title, .event-info, .event-info h3, .event-card-title h3,
+  .event-card-title .subline, .rank-name, .rank-author, .primary-cell,
+  .secondary-cell, .member-name, .member-meta, .group-name, .timeline-title,
+  .timeline-meta, .report-title, .setting-card p, .backup-row>div
+) { min-width: 0; overflow-wrap: anywhere; }
+html[data-bmm-resolved-theme] body .content :is(.event-tags,.toolbar,.section-toolbar,.actions,.backup-row,.report-preview-caption) {
+  flex-wrap: wrap;
+}
+html[data-bmm-resolved-theme] body .content :is(.event-tags .pill,.pill,.status-badge,.category-chip) {
+  line-height: 1.35;
+}
+html[data-bmm-resolved-theme] body .content .table-wrap,
+html[data-bmm-resolved-theme] body .content .table-scroll {
+  max-width: 100%; overflow: auto; overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+}
+html[data-bmm-resolved-theme] body .content :is(.data-table,.audit-table) th { line-height: 1.35; }
+html[data-bmm-resolved-theme] body .content :is(.data-table,.audit-table) td { line-height: 1.45; overflow-wrap: anywhere; }
+
+/* Modal: cabecera y acciones estables; solo el cuerpo largo se desplaza. */
+html[data-bmm-resolved-theme] body .modal-backdrop {
+  padding: max(14px, env(safe-area-inset-top)) 16px max(14px, env(safe-area-inset-bottom));
+  overscroll-behavior: contain;
+}
+html[data-bmm-resolved-theme] body .modal {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  max-height: calc(100dvh - max(28px, env(safe-area-inset-top) + env(safe-area-inset-bottom) + 20px));
+  border-radius: 20px;
+  overflow: hidden;
+}
+html[data-bmm-resolved-theme] body .modal-header,
+html[data-bmm-resolved-theme] body .modal-footer {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+html[data-bmm-resolved-theme] body .modal-header h2 { line-height: 1.25; overflow-wrap: anywhere; }
+html[data-bmm-resolved-theme] body .modal-header p { line-height: 1.45; overflow-wrap: anywhere; }
+html[data-bmm-resolved-theme] body .modal-content {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+html[data-bmm-resolved-theme] body .modal-footer {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+html[data-bmm-resolved-theme] body .modal-footer .btn { min-width: min(100%, 108px); }
+html[data-bmm-resolved-theme] body .modal-close { flex: 0 0 40px; width: 40px; height: 40px; }
+
+/* Tablet: mantener paneles legibles sin columnas residuales estrechas. */
+@media (min-width: 761px) and (max-width: 1080px) {
+  html[data-bmm-resolved-theme] body .content { padding-inline: 20px; }
+  html[data-bmm-resolved-theme] body .content :is(.dashboard-grid,.config-grid,.settings-grid) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  html[data-bmm-resolved-theme] body .content :is(.dashboard-grid,.config-grid) > :only-child { grid-column: 1 / -1; }
+  html[data-bmm-resolved-theme] body .content :is(.pro-grid,.report-config-grid) { gap: 12px; }
+}
+
+/* Móvil: un flujo simple, modales tipo hoja y botones de acción en varias filas si hace falta. */
+@media (max-width: 760px) {
+  html[data-bmm-resolved-theme] body .content :is(.card,.pro-card,.setting-card,.settings-card,.member-card,.group-card,.chart-card,.timeline-card) {
+    border-radius: 16px;
+  }
+  html[data-bmm-resolved-theme] body .content :is(.toolbar,.section-toolbar,.actions,.backup-row,.report-preview-caption) {
+    gap: 8px;
+  }
+  html[data-bmm-resolved-theme] body .content .backup-row { align-items: flex-start; flex-direction: column; }
+  html[data-bmm-resolved-theme] body .content .backup-row .btn { width: 100%; white-space: normal; }
+  html[data-bmm-resolved-theme] body .content :is(.filter-panel,.global-filterbar,.filterbar,.report-tools,.report-config-grid) { min-width: 0; }
+  html[data-bmm-resolved-theme] body .content :is(.field label,.filter-panel label,.global-filterbar label) { font-size: 11px; }
+  html[data-bmm-resolved-theme] body .modal-backdrop {
+    padding: max(6px, env(safe-area-inset-top)) 0 0;
+    align-items: flex-end;
+  }
+  html[data-bmm-resolved-theme] body .modal,
+  html[data-bmm-resolved-theme] body .modal.small {
+    width: 100%;
+    max-width: 100%;
+    max-height: calc(100dvh - max(6px, env(safe-area-inset-top)));
+    border-radius: 22px 22px 0 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    box-shadow: 0 -10px 40px rgba(0,0,0,.18);
+  }
+  html[data-bmm-resolved-theme] body .modal-header {
+    padding: 16px 16px 12px;
+    gap: 10px;
+  }
+  html[data-bmm-resolved-theme] body .modal-header h2 { font-size: 20px; }
+  html[data-bmm-resolved-theme] body .modal-content { padding: 15px 16px; }
+  html[data-bmm-resolved-theme] body .modal-footer {
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+    justify-content: stretch;
+  }
+  html[data-bmm-resolved-theme] body .modal-footer .btn { flex: 1 1 130px; min-height: 44px; }
+  html[data-bmm-resolved-theme] body .modal .form-grid { grid-template-columns: minmax(0,1fr); gap: 12px; }
+  html[data-bmm-resolved-theme] body .modal .form-grid .full { grid-column: auto; }
+  html[data-bmm-resolved-theme] body .modal .marches-head { align-items: flex-start; flex-wrap: wrap; }
+  html[data-bmm-resolved-theme] body .modal .marches-head .btn { flex: 1 1 100%; white-space: normal; }
+  html[data-bmm-resolved-theme] body .content :is(.section-toolbar,.report-preview-caption) { align-items: flex-start; }
+  html[data-bmm-resolved-theme] body .content .report-preview-shell { padding: 9px; }
+}
+
+@media (max-width: 390px) {
+  html[data-bmm-resolved-theme] body .modal-header { padding-inline: 13px; }
+  html[data-bmm-resolved-theme] body .modal-content { padding-inline: 13px; }
+  html[data-bmm-resolved-theme] body .modal-footer { padding-inline: 13px; }
+  html[data-bmm-resolved-theme] body .modal-footer .btn { flex-basis: 100%; }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  html[data-bmm-resolved-theme] body .content :is(.card,.pro-card,.setting-card,.member-card,.group-card,.chart-card):hover {
+    box-shadow: 0 9px 25px rgba(12,49,32,.07);
+  }
+}
+
+@media (prefers-contrast: more) {
+  html[data-bmm-resolved-theme] body .app :is(.btn,.icon-btn,input,select,textarea,.card,.pro-card,.setting-card) {
+    border-width: 2px !important;
+  }
+  html[data-bmm-resolved-theme] body .content :is(.crumb,.card-sub,.footnote,.stat-foot,.field-hint,.help-text) {
+    opacity: 1 !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-bmm-resolved-theme] body .app *,
+  html[data-bmm-resolved-theme] body .app *::before,
+  html[data-bmm-resolved-theme] body .app *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+/* v1.9.1 — Repertorio: tabla compacta en escritorio y ficha de fila en móvil. */
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table-card .table-wrap {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table {
+  width: 100%;
+  min-width: 780px;
+  table-layout: fixed;
+}
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table th {
+  padding: 10px 12px;
+  line-height: 1.3;
+  letter-spacing: .045em;
+}
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table td {
+  padding: 9px 12px;
+  line-height: 1.4;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
+}
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table th:nth-child(1) { width: 30%; }
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table th:nth-child(2) { width: 23%; }
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table th:nth-child(3) { width: 12%; }
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table th:nth-child(4) { width: 23%; }
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table th:nth-child(5) { width: 12%; }
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table .primary-cell {
+  font-size: 13px;
+  line-height: 1.4;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
+}
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table .secondary-cell {
+  line-height: 1.4;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-mobile-meta { display: none; }
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-actions-cell .actions {
+  gap: 5px;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-actions-cell .icon-btn {
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  padding: 0;
+}
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-frequency-cell { text-align: center; }
+html[data-bmm-resolved-theme] body .content .bmm-repertoire-table .bmm-frequency {
+  min-width: 29px;
+  height: 28px;
+  padding-inline: 7px;
+}
+
+@media (max-width: 760px) {
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table-card .table-wrap {
+    overflow: visible !important;
+    padding: 2px 0 5px;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    table-layout: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table thead { display: none; }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody {
+    display: grid;
+    gap: 8px;
+    width: 100%;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "main count" "actions actions";
+    align-items: start;
+    gap: 7px 12px;
+    width: auto;
+    min-width: 0;
+    margin: 0 9px;
+    padding: 10px 11px 8px;
+    border: 1px solid var(--bmm-border, #dce3d9);
+    border-radius: 12px;
+    background: var(--bmm-surface, #fffefb);
+    box-shadow: 0 2px 8px rgba(18, 57, 37, .045);
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody tr:hover { background: var(--bmm-surface, #fffefb); }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody td {
+    display: block;
+    width: auto;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    font-size: 12px;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody td:nth-child(1) { grid-area: main; }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody td:nth-child(2),
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody td:nth-child(4) { display: none !important; }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody td:nth-child(3) {
+    grid-area: count;
+    justify-self: end;
+    padding-top: 1px !important;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody td:nth-child(5) {
+    grid-area: actions;
+    width: 100%;
+    padding-top: 6px !important;
+    border-top: 1px solid var(--bmm-border, #dce3d9) !important;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table .primary-cell {
+    font-size: 13px;
+    font-weight: 750;
+    line-height: 1.35;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: auto;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-note { margin-top: 4px; }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-mobile-meta {
+    display: grid;
+    gap: 2px;
+    margin-top: 4px;
+    color: var(--bmm-muted, #63746a);
+    font-size: 11px;
+    line-height: 1.35;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-mobile-author { font-weight: 600; }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-mobile-last { font-size: 10px; }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-actions-cell .actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 7px;
+    width: 100%;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-actions-cell .icon-btn {
+    width: 34px;
+    min-width: 34px;
+    height: 32px;
+    border-radius: 9px;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-frequency-cell .bmm-frequency {
+    min-width: 30px;
+    height: 28px;
+    border-radius: 9px;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody td[colspan] { grid-column: 1 / -1; }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table tbody td[colspan] .empty { padding: 14px 8px; }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table-card .table-footer {
+    gap: 6px;
+    padding: 10px 12px;
+    align-items: flex-start;
+    font-size: 10px;
+  }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table-card .table-footer span:first-child { max-width: 78%; }
+}
+
+@media (min-width: 761px) and (max-width: 1020px) {
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table { min-width: 720px; }
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table th,
+  html[data-bmm-resolved-theme] body .content .bmm-repertoire-table td { padding-inline: 9px; }
+}

@@ -1,0 +1,1398 @@
+{
+  "version": 3,
+  "repertoire": [
+    {
+      "id": "audit-march-0",
+      "name": "A la memoria de nuestros músicos: oración, esperanza y aniversario de Santa Cecilia (versión extraordinaria para banda municipal)",
+      "author": "Compositor sintético de nombre deliberadamente extenso para comprobar la legibilidad en tablet y móvil",
+      "style": "Concierto",
+      "notes": "Nota de prueba con acentos y puntuación. Nota de prueba con acentos y puntuación. Nota de prueba con acentos y puntuación. Nota de prueba con acentos y puntuación. Nota de prueba con acentos y puntuación. Nota de prueba con acentos y puntuación. Nota de prueba con acentos y puntuación. Nota de prueba con acentos y puntuación. ",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-1",
+      "name": "Marcha sintética 2 — añoranza y música",
+      "author": "Autor de prueba 2",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-2",
+      "name": "Marcha sintética 3 — añoranza y música",
+      "author": "Autor de prueba 3",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-3",
+      "name": "Marcha sintética 4 — añoranza y música",
+      "author": "Autor de prueba 4",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-4",
+      "name": "Marcha sintética 5 — añoranza y música",
+      "author": "Compositor sintético de nombre deliberadamente extenso para comprobar la legibilidad en tablet y móvil",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-5",
+      "name": "Marcha sintética 6 — añoranza y música",
+      "author": "Autor de prueba 6",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-6",
+      "name": "Marcha sintética 7 — añoranza y música",
+      "author": "Autor de prueba 7",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-7",
+      "name": "Marcha sintética 8 — añoranza y música",
+      "author": "Autor de prueba 8",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-8",
+      "name": "Marcha sintética 9 — añoranza y música",
+      "author": "Compositor sintético de nombre deliberadamente extenso para comprobar la legibilidad en tablet y móvil",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-9",
+      "name": "Marcha sintética 10 — añoranza y música",
+      "author": "Autor de prueba 10",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-10",
+      "name": "Marcha sintética 11 — añoranza y música",
+      "author": "Autor de prueba 11",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-11",
+      "name": "Marcha sintética 12 — añoranza y música",
+      "author": "Autor de prueba 12",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-12",
+      "name": "Marcha sintética 13 — añoranza y música",
+      "author": "Compositor sintético de nombre deliberadamente extenso para comprobar la legibilidad en tablet y móvil",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-13",
+      "name": "Marcha sintética 14 — añoranza y música",
+      "author": "Autor de prueba 14",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-14",
+      "name": "Marcha sintética 15 — añoranza y música",
+      "author": "Autor de prueba 15",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-15",
+      "name": "Marcha sintética 16 — añoranza y música",
+      "author": "Autor de prueba 16",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-16",
+      "name": "Marcha sintética 17 — añoranza y música",
+      "author": "Compositor sintético de nombre deliberadamente extenso para comprobar la legibilidad en tablet y móvil",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-17",
+      "name": "Marcha sintética 18 — añoranza y música",
+      "author": "Autor de prueba 18",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-18",
+      "name": "Marcha sintética 19 — añoranza y música",
+      "author": "Autor de prueba 19",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-19",
+      "name": "Marcha sintética 20 — añoranza y música",
+      "author": "Autor de prueba 20",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-20",
+      "name": "Marcha sintética 21 — añoranza y música",
+      "author": "Compositor sintético de nombre deliberadamente extenso para comprobar la legibilidad en tablet y móvil",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-21",
+      "name": "Marcha sintética 22 — añoranza y música",
+      "author": "Autor de prueba 22",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-22",
+      "name": "Marcha sintética 23 — añoranza y música",
+      "author": "Autor de prueba 23",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-23",
+      "name": "Marcha sintética 24 — añoranza y música",
+      "author": "Autor de prueba 24",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-24",
+      "name": "Marcha sintética 25 — añoranza y música",
+      "author": "Compositor sintético de nombre deliberadamente extenso para comprobar la legibilidad en tablet y móvil",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-25",
+      "name": "Marcha sintética 26 — añoranza y música",
+      "author": "Autor de prueba 26",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-26",
+      "name": "Marcha sintética 27 — añoranza y música",
+      "author": "Autor de prueba 27",
+      "style": "Concierto",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    },
+    {
+      "id": "audit-march-27",
+      "name": "Marcha sintética 28 — añoranza y música",
+      "author": "Autor de prueba 28",
+      "style": "Procesional",
+      "notes": "",
+      "tags": [
+        "Auditoría sintética"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "audit-event-0",
+      "name": "Procesión extraordinaria de Nuestra Señora de la Encarnación y Santa Cecilia de Arjonilla — traslado y concierto conmemorativo (ñ, á, é, í, ó, ú)",
+      "date": "2026-10-12",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo sintético de encuentros y celebraciones extraordinarias de la Banda Municipal Santa Cecilia de Arjonilla",
+      "category": "Procesión",
+      "locality": "Plaza y avenida de localización sintética extraordinariamente extensa (Jaén, Andalucía)",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "Descripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\nDescripción sintética de varias líneas.\n",
+      "marches": [
+        {
+          "id": "audit-performance-0-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-4",
+          "marchId": "audit-march-4",
+          "order": 5,
+          "location": "Plaza de prueba",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-5",
+          "marchId": "audit-march-5",
+          "order": 6,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-6",
+          "marchId": "audit-march-6",
+          "order": 7,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-7",
+          "marchId": "audit-march-7",
+          "order": 8,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-8",
+          "marchId": "audit-march-8",
+          "order": 9,
+          "location": "Plaza de prueba",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-9",
+          "marchId": "audit-march-9",
+          "order": 10,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-10",
+          "marchId": "audit-march-10",
+          "order": 11,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-11",
+          "marchId": "audit-march-11",
+          "order": 12,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-12",
+          "marchId": "audit-march-12",
+          "order": 13,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-13",
+          "marchId": "audit-march-13",
+          "order": 14,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-14",
+          "marchId": "audit-march-14",
+          "order": 15,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-15",
+          "marchId": "audit-march-15",
+          "order": 16,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-16",
+          "marchId": "audit-march-16",
+          "order": 17,
+          "location": "Plaza de prueba",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-17",
+          "marchId": "audit-march-17",
+          "order": 18,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-18",
+          "marchId": "audit-march-18",
+          "order": 19,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-19",
+          "marchId": "audit-march-19",
+          "order": 20,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-20",
+          "marchId": "audit-march-20",
+          "order": 21,
+          "location": "Plaza de prueba",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-21",
+          "marchId": "audit-march-21",
+          "order": 22,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-22",
+          "marchId": "audit-march-22",
+          "order": 23,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-23",
+          "marchId": "audit-march-23",
+          "order": 24,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-24",
+          "marchId": "audit-march-24",
+          "order": 25,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-25",
+          "marchId": "audit-march-25",
+          "order": 26,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-26",
+          "marchId": "audit-march-26",
+          "order": 27,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-27",
+          "marchId": "audit-march-27",
+          "order": 28,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-28",
+          "marchId": "audit-march-0",
+          "order": 29,
+          "location": "Plaza de prueba",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-29",
+          "marchId": "audit-march-1",
+          "order": 30,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-30",
+          "marchId": "audit-march-2",
+          "order": 31,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-31",
+          "marchId": "audit-march-3",
+          "order": 32,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-32",
+          "marchId": "audit-march-4",
+          "order": 33,
+          "location": "Plaza de prueba",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-33",
+          "marchId": "audit-march-5",
+          "order": 34,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-0-34",
+          "marchId": "audit-march-6",
+          "order": 35,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-1",
+      "name": "Actuación sintética 2 (Santa Cecilia y Arjonilla)",
+      "date": "2026-09-02",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo de prueba",
+      "category": "Concierto",
+      "locality": "Arjonilla",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-1-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-1-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-1-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-1-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-2",
+      "name": "Actuación sintética 3 (Santa Cecilia y Arjonilla)",
+      "date": "2026-09-03",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo de prueba",
+      "category": "Procesión",
+      "locality": "Arjonilla",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-2-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-2-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-2-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-2-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-3",
+      "name": "Actuación sintética 4 (Santa Cecilia y Arjonilla)",
+      "date": "2026-09-04",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo sintético de encuentros y celebraciones extraordinarias de la Banda Municipal Santa Cecilia de Arjonilla",
+      "category": "Concierto",
+      "locality": "Plaza y avenida de localización sintética extraordinariamente extensa (Jaén, Andalucía)",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-3-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-3-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-3-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-3-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-4",
+      "name": "Actuación sintética 5 (Santa Cecilia y Arjonilla)",
+      "date": "2026-09-05",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo de prueba",
+      "category": "Procesión",
+      "locality": "Arjonilla",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-4-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-4-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-4-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-4-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-5",
+      "name": "Actuación sintética 6 (Santa Cecilia y Arjonilla)",
+      "date": "2026-09-06",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo de prueba",
+      "category": "Concierto",
+      "locality": "Arjonilla",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-5-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-5-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-5-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-5-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-6",
+      "name": "Actuación sintética 7 (Santa Cecilia y Arjonilla)",
+      "date": "2026-09-07",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo sintético de encuentros y celebraciones extraordinarias de la Banda Municipal Santa Cecilia de Arjonilla",
+      "category": "Procesión",
+      "locality": "Plaza y avenida de localización sintética extraordinariamente extensa (Jaén, Andalucía)",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-6-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-6-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-6-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-6-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-7",
+      "name": "Actuación sintética 8 (Santa Cecilia y Arjonilla)",
+      "date": "2026-09-08",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo de prueba",
+      "category": "Concierto",
+      "locality": "Arjonilla",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-7-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-7-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-7-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-7-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-8",
+      "name": "Actuación sintética 9 (Santa Cecilia y Arjonilla)",
+      "date": "2026-09-09",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo de prueba",
+      "category": "Procesión",
+      "locality": "Arjonilla",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-8-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-8-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-8-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-8-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-9",
+      "name": "Actuación sintética 10 (Santa Cecilia y Arjonilla)",
+      "date": "2026-09-10",
+      "time": "19:30",
+      "status": "Realizado",
+      "group": "Grupo sintético de encuentros y celebraciones extraordinarias de la Banda Municipal Santa Cecilia de Arjonilla",
+      "category": "Concierto",
+      "locality": "Plaza y avenida de localización sintética extraordinariamente extensa (Jaén, Andalucía)",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-9-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-9-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-9-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-9-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-10",
+      "name": "Actuación sintética 11 (Santa Cecilia y Arjonilla)",
+      "date": "2026-11-11",
+      "time": "19:30",
+      "status": "Planificado",
+      "group": "Grupo de prueba",
+      "category": "Procesión",
+      "locality": "Arjonilla",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-10-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-10-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-10-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-10-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-11",
+      "name": "Actuación sintética 12 (Santa Cecilia y Arjonilla)",
+      "date": "2026-11-12",
+      "time": "19:30",
+      "status": "Planificado",
+      "group": "Grupo de prueba",
+      "category": "Concierto",
+      "locality": "Arjonilla",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-11-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-11-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-11-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-11-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-12",
+      "name": "Actuación sintética 13 (Santa Cecilia y Arjonilla)",
+      "date": "2026-11-13",
+      "time": "19:30",
+      "status": "Planificado",
+      "group": "Grupo sintético de encuentros y celebraciones extraordinarias de la Banda Municipal Santa Cecilia de Arjonilla",
+      "category": "Procesión",
+      "locality": "Plaza y avenida de localización sintética extraordinariamente extensa (Jaén, Andalucía)",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-12-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-12-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-12-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-12-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "audit-event-13",
+      "name": "Actuación sintética 14 (Santa Cecilia y Arjonilla)",
+      "date": "2026-11-14",
+      "time": "19:30",
+      "status": "Planificado",
+      "group": "Grupo de prueba",
+      "category": "Concierto",
+      "locality": "Arjonilla",
+      "organizer": "Entidad organizadora ficticia — prueba",
+      "route": "Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. Recorrido sintético: plaza, avenida, calle de los músicos y regreso. ",
+      "notes": "",
+      "marches": [
+        {
+          "id": "audit-performance-13-0",
+          "marchId": "audit-march-0",
+          "order": 1,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "Anotación sintética larga para comprobar el ajuste de la fila y su presencia completa en el documento.",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-13-1",
+          "marchId": "audit-march-1",
+          "order": 2,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-13-2",
+          "marchId": "audit-march-2",
+          "order": 3,
+          "location": "Plaza de prueba",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        },
+        {
+          "id": "audit-performance-13-3",
+          "marchId": "audit-march-3",
+          "order": 4,
+          "location": "Ubicación sintética extensa junto al recorrido extraordinario",
+          "notes": "",
+          "startTime": "19:35",
+          "duration": "4"
+        }
+      ]
+    }
+  ],
+  "groupsCatalog": [
+    {
+      "id": "audit-group-1",
+      "name": "Grupo de prueba",
+      "description": "Descripción sintética. Descripción sintética. Descripción sintética. Descripción sintética. Descripción sintética. Descripción sintética. Descripción sintética. Descripción sintética. Descripción sintética. Descripción sintética. Descripción sintética. Descripción sintética. ",
+      "color": "#236b45"
+    }
+  ],
+  "categories": [
+    "Procesión",
+    "Concierto",
+    "Otro"
+  ],
+  "members": [
+    {
+      "id": "audit-member-0",
+      "name": "Integrante sintético de nombre extenso para las pruebas de tarjetas y documentos",
+      "instrument": "Percusión",
+      "registrationYear": "2020",
+      "section": "Sección sintética de nombre extenso",
+      "role": "Músico de prueba",
+      "status": "Inactivo",
+      "email": "prueba0@example.invalid",
+      "phone": "",
+      "notes": "Ficha ficticia: no corresponde a una persona real.",
+      "tags": []
+    },
+    {
+      "id": "audit-member-1",
+      "name": "Integrante de prueba 2",
+      "instrument": "Clarinete",
+      "registrationYear": "2020",
+      "section": "Sección sintética de nombre extenso",
+      "role": "Músico de prueba",
+      "status": "Activo",
+      "email": "prueba1@example.invalid",
+      "phone": "",
+      "notes": "Ficha ficticia: no corresponde a una persona real.",
+      "tags": []
+    },
+    {
+      "id": "audit-member-2",
+      "name": "Integrante de prueba 3",
+      "instrument": "Percusión",
+      "registrationYear": "2020",
+      "section": "Sección sintética de nombre extenso",
+      "role": "Músico de prueba",
+      "status": "Activo",
+      "email": "prueba2@example.invalid",
+      "phone": "",
+      "notes": "Ficha ficticia: no corresponde a una persona real.",
+      "tags": []
+    },
+    {
+      "id": "audit-member-3",
+      "name": "Integrante de prueba 4",
+      "instrument": "Clarinete",
+      "registrationYear": "2020",
+      "section": "Sección sintética de nombre extenso",
+      "role": "Músico de prueba",
+      "status": "Inactivo",
+      "email": "prueba3@example.invalid",
+      "phone": "",
+      "notes": "Ficha ficticia: no corresponde a una persona real.",
+      "tags": []
+    },
+    {
+      "id": "audit-member-4",
+      "name": "Integrante de prueba 5",
+      "instrument": "Percusión",
+      "registrationYear": "2020",
+      "section": "Sección sintética de nombre extenso",
+      "role": "Músico de prueba",
+      "status": "Activo",
+      "email": "prueba4@example.invalid",
+      "phone": "",
+      "notes": "Ficha ficticia: no corresponde a una persona real.",
+      "tags": []
+    },
+    {
+      "id": "audit-member-5",
+      "name": "Integrante de prueba 6",
+      "instrument": "Clarinete",
+      "registrationYear": "2020",
+      "section": "Sección sintética de nombre extenso",
+      "role": "Músico de prueba",
+      "status": "Activo",
+      "email": "prueba5@example.invalid",
+      "phone": "",
+      "notes": "Ficha ficticia: no corresponde a una persona real.",
+      "tags": []
+    },
+    {
+      "id": "audit-member-6",
+      "name": "Integrante de prueba 7",
+      "instrument": "Percusión",
+      "registrationYear": "2020",
+      "section": "Sección sintética de nombre extenso",
+      "role": "Músico de prueba",
+      "status": "Inactivo",
+      "email": "prueba6@example.invalid",
+      "phone": "",
+      "notes": "Ficha ficticia: no corresponde a una persona real.",
+      "tags": []
+    }
+  ],
+  "settings": {
+    "organization": "BMM Santa Cecilia de Arjonilla"
+  },
+  "auditLog": [
+    {
+      "at": "2026-10-12T12:00:00Z",
+      "page": "actuaciones",
+      "kind": "Prueba",
+      "detail": "Procesión extraordinaria de Nuestra Señora de la Encarnación y Santa Cecilia de Arjonilla — traslado y concierto conmemorativo (ñ, á, é, í, ó, ú)"
+    }
+  ]
+}
+

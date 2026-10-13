@@ -1,0 +1,42 @@
+{
+  "id": "/",
+  "name": "BMM Santa Cecilia de Arjonilla",
+  "short_name": "BMM Santa Cecilia",
+  "description": "Gestión del repertorio, actuaciones, cronología, analítica, grupos e informes de la Banda Municipal de Música Santa Cecilia de Arjonilla.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#f5f5ef",
+  "theme_color": "#0b3527",
+  "lang": "es-ES",
+  "categories": [
+    "music",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
